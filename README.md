@@ -35,7 +35,7 @@ Same team as your Software Engineering Team Project, but only 1 computer. One pe
 
 ## Activity Overview
 
-* **Duration:** 60–80 minutes
+* **Duration:** ~75 minutes
 * **Teams:** 4 students
 * **Format:** Plan → Code → Reflect → Discuss
 
@@ -66,7 +66,7 @@ To align with software engineering practices, the card game will be developed in
 
 ---
 
-### 2.1 Setup (5 mins) 
+### 2.1 Setup (3 mins) 
 
 Before we begin coding, it is important to give the LLM the context for this activity. Quickly discuss with your team which programming language and LLM you are going to use. Your first prompt to the LLM should tell you are doing a software engineering classroom code activity (duration about 50 min) to create a card game in your chosen language. You may ask LLM to suggest possible simple card games to complete in about 50 min. 
 
@@ -126,7 +126,9 @@ Repeat the same steps for iteration 1, but you can experiment here by changing a
 ### 2.4 Polishing (Optional)
 
 If you finished earlier, do some polishing on your code. Here are some ideas (if not done before):
+* More TESTING!
 * Better Cards Graphics
+* Improve the background
 * Score of Wins/Losses
 * Multiplayer
 * Betting
