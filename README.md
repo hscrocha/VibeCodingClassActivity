@@ -68,9 +68,9 @@ To align with software engineering practices, the card game will be developed in
 
 ### 2.1 Setup (5 mins) 
 
-Before we begin coding, it is important to give the LLM the context for this activity. Quickly discuss with your team which programming language and LLM you are going to use. Your first prompt to the LLM should tell you are doing a software engineering classroom code activity (duration about 60 min) to create a card game in your chosen language. You may ask LLM to suggest possible simple card games to complete in about 60 min. 
+Before we begin coding, it is important to give the LLM the context for this activity. Quickly discuss with your team which programming language and LLM you are going to use. Your first prompt to the LLM should tell you are doing a software engineering classroom code activity (duration about 50 min) to create a card game in your chosen language. You may ask LLM to suggest possible simple card games to complete in about 50 min. 
 
-> I am a senior college student doing a vibe coding class activity in a software engineering course. We are going to develop a simple card game in JavaScript (browser) using a team of 4 people, but only 1 computer. This activity will be about 60 minutes long. Therefore, the game should be simple enough to complete within that period. More instructions will follow, but I accept suggestions for simple card games to implement.
+> I am a senior college student doing a vibe coding class activity in a software engineering course. We are going to develop a simple card game in JavaScript (browser) using a team of 4 people, but only 1 computer. This activity will be about 50 minutes long. Therefore, the game should be simple enough to complete within that period. More instructions will follow, but I accept suggestions for simple card games to implement.
 
 Now, your Team decides:
 * What kind of deck (standard 52, custom fantasy deck, etc.)?
@@ -89,9 +89,9 @@ The LLM can help more than just coding in our development process. Let's make it
 
 Give prompts to your LLM to generate text files (or MD files) for the following:
 * Requirements (at a high level) for this software
-* Divide the work into 4 iterations of 15 minutes.
+* Divide the work into 4 iterations of 12 minutes.
 
-> Create the requirements (in high-level) for this app. Divide it into four iterations of 15 minutes.
+> Create the requirements (in high-level) for this app. Divide it into four iterations of 12 minutes.
 
 Read and double-check the requirements, and if the proposed iterations make sense (ask to change if not).
 Save it in a file (or files) and use it as your guide for implementing this software.
@@ -100,7 +100,7 @@ Ask the LLM to create a minimal starter template without any features (very impo
 
 > Generate a minimal starter template with no features, just a skeleton for the initial page. But make the web page look nice and pretty. Please use the current version of Bootstrap.
 
-### 2.2 Iteration 1 (15 min)
+### 2.2 Iteration 1 (12 min)
 
 * Ask for a solution without coding, and select or direct the LLM to the simplest one.
 <!-- > What would be your solution or choices to implement iteration 1? I do not want code now, just your reasoning. -->
@@ -116,7 +116,7 @@ Ask the LLM to create a minimal starter template without any features (very impo
 
 Even by asking not to break anything, it is still very likely that the LLM broke something. Double-check the code. If you can fix yourself, do it. If not, change the prompt to say it does not work and keep doing it until you finish iteration 1. You can check the Iteration Planning earlier to see if it complies with the proposed features for it.
 
-### 2.3 Iterations 2-4 (15 min each)
+### 2.3 Iterations 2-4 (12 min each)
 
 Repeat the same steps for iteration 1, but you can experiment here by changing a few things, like:
 * If you generated code for the entire iteration at once, now try to generate task by task or a few tasks at a time (or vice-versa).
@@ -131,17 +131,18 @@ If you finished earlier, do some polishing on your code. Here are some ideas (if
 * Multiplayer
 * Betting
 
-## 3. Team Reflection & Class Discussion (10 minutes)
+## 3. Demo Time (10 minutes)
 
-1. Did the Project Management and Setup at the beginning help guide the project?
-2. How did the planning → LLM-assisted high-level solution → task breakdown → coding → testing cycle influence your development?
-3. How accurate or useful were the LLM-generated high-level solutions? Did they require major adjustments?
+Teams may demo their final games.
+
+## 4. Team Reflection & Class Discussion (10 minutes)
+
+1. What LLM did you use?
+2. Did LLM break your code often?
+3. How was your testing?
 4. How effectively did your team break large ideas into smaller, implementable tasks?
-5. During the iterations, did you code task by task or all of them at once (or both)?  
-6. How did writing tests after each iteration affect code quality or confidence?
 7. Which iteration improved the game the most, and why?
 
-(Optional) Teams may demo their final games and highlight how features evolved across iterations.
 
 
 
