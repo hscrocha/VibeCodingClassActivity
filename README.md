@@ -83,7 +83,7 @@ Give LLM prompts about your team's decisions to further setup the context for th
 
 **Important:** GitHub is your friend here. I recommend setting up a repo for your code activity. If anything breaks (and LLM will break your code more often than you expect), you can revert to a previous commit.
 
-#### **Project Management (5 min)**
+#### **Project Management (3 min)**
 
 The LLM can help more than just coding in our development process. Let's make it do the project management work as well.
 
@@ -133,11 +133,11 @@ If you finished earlier, do some polishing on your code. Here are some ideas (if
 * Multiplayer
 * Betting
 
-## 3. Demo Time (10 minutes)
+## 3. Demo Time (8 minutes)
 
 Teams may demo their final games.
 
-## 4. Team Reflection & Class Discussion (10 minutes)
+## 4. Team Reflection & Class Discussion (8 minutes)
 
 1. What LLM did you use?
 2. Did LLM break your code often?
